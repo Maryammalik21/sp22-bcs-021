@@ -4,7 +4,7 @@ pipeline {
         stage('Run Python') {
             steps {
                 echo 'Running Python script...'
-                sh 'python3 script.py'
+                 bat '"D:\\anaconda\\python.exe" script.py'
             }
         }
     }
